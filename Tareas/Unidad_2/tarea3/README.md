@@ -123,7 +123,7 @@ En una red social, los usuarios pueden seguir a otros usuarios y ser seguidos po
 
      
   </br>
-  <img src="img/Ejercici8.drawio.png">
+  <img src="img/Ejercicio8.drawio.png">
   </br>
 
 
