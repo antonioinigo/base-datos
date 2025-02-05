@@ -1,6 +1,6 @@
 <div align="justify">
 
-# <img src=../../../../../images/computer.png width="40"> Code, Learn & Practice(E/R: Ejercicios básicos de E/R)
+# Code, Learn & Practice(E/R: Ejercicios básicos de E/R)
 
 ## Descripción
 
