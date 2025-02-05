@@ -1,6 +1,6 @@
 <div align="justify">
 
-# <img src=../../../../../images/computer.png width="40"> Code, Learn & Practice(E/R: Sistema de Ventas)
+# Code, Learn & Practice(E/R: Sistema de Ventas)
 
 
 <div align="center">
