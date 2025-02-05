@@ -1,6 +1,6 @@
 <div align="justify">
 
-# <img src=../../../../../images/computer.png width="40"> Code, Learn & Practice(MR: Construye el modelo relacional basado en la descripción que se aporta)
+# Code, Learn & Practice(MR: Construye el modelo relacional basado en la descripción que se aporta)
 
 ## Descripción
 
