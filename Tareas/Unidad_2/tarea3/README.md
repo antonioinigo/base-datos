@@ -1,6 +1,6 @@
 <div align="justify">
 
-# <img src=../../../../../images/computer.png width="40"> Code, Learn & Practice(E/R: Prática los tipos de relaciones)
+#  Code, Learn & Practice(E/R: Prática los tipos de relaciones)
 
 **Ejercicio 1:**  
 
