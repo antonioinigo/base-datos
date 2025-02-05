@@ -1,6 +1,6 @@
 <div align="justify">
 
-# <img src=../../../../../images/computer.png width="40"> Code, Learn & Practice(E/R: Construye el diagrama basado en la descripción que se aporta)
+# Code, Learn & Practice(E/R: Construye el diagrama basado en la descripción que se aporta)
 
 <img src=img/la-liga.png>
 
