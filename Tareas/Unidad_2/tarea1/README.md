@@ -21,7 +21,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio2.drawio.png>
+  <img src="img/Ejercicio2.drawio.png">
   </br>
 
  </details>
@@ -31,7 +31,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio3.drawio.png>
+  <img src="img/Ejercicio3.drawio.png">
   </br>
 
  </details>
@@ -41,7 +41,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-    <img src="img/Ejercicio4.drawio.png>
+    <img src="img/Ejercicio4.drawio.png">
   </br>
 
 </details>
@@ -51,7 +51,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio5.drawio.png>
+  <img src="img/Ejercicio5.drawio.png">
   </br>
 </details>
 
@@ -62,7 +62,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio6a.drawio.png>
+  <img src="img/Ejercicio6a.drawio.png">
   </br>
 </details>
 
@@ -80,7 +80,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio7.drawio.png>
+  <img src="img/Ejercicio7.drawio.png">
   </br>
 
 </details>
@@ -90,7 +90,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio8.drawio.png>
+  <img src="img/Ejercicio8.drawio.png">
   </br>
 
  </details>
@@ -100,7 +100,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
   <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
   </br>
-  <img src="img/Ejercicio9.drawio.png>
+  <img src="img/Ejercicio9.drawio.png">
   </br>
 
  </details>
