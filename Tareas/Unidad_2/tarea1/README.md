@@ -71,7 +71,7 @@ Representa las entidades, relaciones y cardinalidades mínimas y máximas para c
     <details>
           <summary>PULSA PARA VER LA SOLUCIÓN</summary>
       </br>
-      <img src="img/Ejercicio6b.drawio.png>
+      <img src="img/Ejercicio6b.drawio.png">
       </br>
     </details>
 
