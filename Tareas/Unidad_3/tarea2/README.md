@@ -29,6 +29,7 @@ ___Transforma el modelo entidad-relación resultante al modelo relacional a trav
   </br>
 
 
+
   
 </details>
 
