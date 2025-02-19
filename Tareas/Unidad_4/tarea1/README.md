@@ -31,12 +31,12 @@
 | 1          | Laptop         | Tecnología | 1000   |
 | 2          | Mouse          | Accesorios | 25     |
 
-#### Tabla Proveedores_Productos
-| ID_Producto | Proveedor  |
-|------------|-----------|
-| 1          | Dell      |
-| 1          | HP        |
-| 2          | Logitech  |
+#### Tabla Productos
+ Proveedor  |
+-----------|
+ Dell      |
+ HP        |
+Logitech  |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -72,11 +72,11 @@
 | 101      | Juan Pérez | Calle 123   |
 | 102      | Ana López  | Av. Central |
 
-#### Tabla Pedidos_Productos
-| ID_Pedido | Producto | Cantidad | Precio |
-|----------|---------|---------|--------|
-| 101      | Laptop  | 1       | 1000   |
-| 102      | Teclado | 2       | 50     |
+#### Tabla Productos
+ Producto | Cantidad | Precio |
+---------|---------|--------|
+ Laptop  | 1       | 1000   |
+ Teclado | 2       | 50     |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -117,12 +117,11 @@
 | 1          | Carlos R. | Ventas      |
 | 2          | Laura M.  | Finanzas    |
 
-#### Tabla Empleados_Teléfonos
-| ID_Empleado | Teléfono |
-|------------|---------|
-| 1          | 12345   |
-| 1          | 67890   |
-| 2          | 54321   |
+#### Tabla Teléfonos
+ Teléfono |
+---------|
+ 67890   |
+ 54321   |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -160,20 +159,19 @@
 
 2. Aplicar **2FN**, asegurando que las dependencias parciales sean eliminadas.
 
-#### Tabla Reservas
-| ID_Reserva | Cliente  | Habitación |
-|-----------|---------|-----------|
-| 5001      | Pedro G. | 101       |
-| 5002      | María T. | 202       |
-
+#### Tabla Cliente
+ | Cliente  |
+|---------|
+ Pedro G. |
+ María T. |
 #### Tabla Reservas_Fechas
-| ID_Reserva | Fecha   | Precio |
-|-----------|--------|--------|
-| 5001      | 01/02  | 300    |
-| 5001      | 02/02  | 300    |
-| 5001      | 03/02  | 300    |
-| 5002      | 10/03  | 200    |
-| 5002      | 11/03  | 200    |
+| ID_Reserva | Fecha   | Precio | Habitación |
+|-----------|--------|--------|--------|
+| 5001      | 01/02  | 300    | 101    |
+| 5001      | 02/02  | 300    | 101    |
+| 5001      | 03/02  | 300    | 101    |
+| 5002      | 10/03  | 200    | 202    |
+| 5002      | 11/03  | 200    | 202    |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -216,13 +214,13 @@
 | 3001         | Luis R.    | Matemáticas | Prof. Pérez |
 | 3002         | Ana S.     | Física      | Prof. Gómez |
 
-#### Tabla Inscripciones_Horarios
+#### Tabla Horarios
 
-| ID_Inscripción | Horario        |
-|---------------|---------------|
-| 3001         | Lunes 10AM    |
-| 3001         | Miércoles 2PM |
-| 3002         | Martes 3PM    |
+| Horario        |
+|---------------|
+| Lunes 10AM    |
+| Miércoles 2PM |
+| Martes 3PM    |
 
 
 > Verifica generando el modelo Entidad/Relación
@@ -259,20 +257,20 @@
 
 2. Aplicar **2FN**, asegurando que cada atributo dependa completamente de la clave primaria.
 
-#### Tabla Ventas
+#### Tabla Cliente
 
-| ID_Venta | Cliente  | Total |
-|---------|---------|------|
-| 8001    | Juan P. | 500  |
-| 8002    | Andrea M. | 1000 |
+ Cliente  |
+|---------|
+| Juan P. | 
+| Andrea M. | 
 
 #### Tabla Ventas_Productos
 
-| ID_Venta | Producto |
-|---------|-----------|
-| 8001    | Celular  |
-| 8001    | Funda    |
-| 8002    | Laptop   |
+| ID_Venta | Producto | Total |
+|---------|-----------|-----------|
+| 8001    | Celular  | 500
+| 8001    | Funda    | 500
+| 8002    | Laptop   | 500
 > Verifica generando el modelo Entidad/Relación
 <details>
       <summary>PULSA PARA VER LA SOLUCIÓN</summary>
@@ -313,12 +311,12 @@
 | 101     | El Quijote | Novela        |
 | 102     | 1984      | Ciencia Ficción |
 
-#### Tabla Libros_Autores
+#### Tabla Autores
 
-| ID_Libro | Autor     |
-|---------|------------|
-| 101     | Cervantes |
-| 102     | Orwell    |
+| Autor     |
+|------------|
+| Cervantes |
+| Orwell    |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -354,20 +352,20 @@
 
 2. Aplicar **2FN**, asegurando que cada atributo dependa completamente de la clave primaria.
 
-#### Tabla Facturas
+#### Tabla Cliente
 
-| ID_Factura | Cliente  | Costo Total |
-|-----------|---------|-------------|
-| 9001      | Juan P. | 50          |
-| 9002      | Ana M.  | 20          |
+| Cliente |
+|---------|
+| Juan P. | 
+| Ana M.  | 
 
 #### Tabla Facturas_Servicios
 
-| ID_Factura | Servicio  |
-|-----------|-----------|
-| 9001      | Internet  |
-| 9001      | TV        |
-| 9002      | Teléfono  |
+| ID_Factura | Servicio  | Costo Total |
+|-----------|-----------|-------------|
+| 9001      | Internet  |50          |
+| 9001      | TV        |50          |
+| 9002      | Teléfono  |20          |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -410,13 +408,13 @@
 | 5001      | Toyota | 2022 |
 | 5002      | Honda  | 2023 |
 
-#### Tabla Vehículos_Modelos
+#### Tabla Modelos
 
-| ID_Vehículo | Modelo  |
-|-----------|---------|
-| 5001      | Corolla |
-| 5001      | Yaris   |
-| 5002      | Civic   |
+ | Modelo  |
+|-----------|
+| Corolla |
+| Yaris   |
+| Civic   |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
@@ -460,14 +458,14 @@
 | 7001      | Web App   | 5000       |
 | 7002      | E-commerce | 10000      |
 
-#### Tabla Proyectos_Miembros
+#### Tabla Miembros
 
-| ID_Proyecto | Miembro |
-|-----------|--------|
-| 7001      | Juan   |
-| 7001      | Ana    |
-| 7002      | Pedro  |
-| 7002      | María  |
+| Miembro |
+|-----------|
+| Juan   |
+| Ana    |
+| Pedro  |
+| María  |
 
 > Verifica generando el modelo Entidad/Relación
 <details>
