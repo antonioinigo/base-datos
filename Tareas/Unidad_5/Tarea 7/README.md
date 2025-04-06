@@ -236,19 +236,19 @@ select c.modelo, c.precio, cl.nombre, v.fecha_venta from ventas as v join coches
 <summary>PULSA PARA VER EL RESULTADO DE LA TABLA</summary>
 </br>
 
-+----------------+---------+-----------------+-------------+
-|     modelo     | precio  |     nombre      | fecha_venta |
-+----------------+---------+-----------------+-------------+
-| Eléctrico 2021 | 40000.0 | Elena Torres    | 2023-10-05  |
-| Deportivo 2023 | 35000.0 | Isabel Díaz     | 2023-08-25  |
-| Híbrido 2022   | 27000.0 | Miguel González | 2023-07-20  |
-| Compacto 2021  | 20000.0 | Laura Sánchez   | 2023-06-15  |
-| Camioneta 2023 | 32000.0 | Pedro Rodríguez | 2023-05-05  |
-| Coupé 2022     | 28000.0 | Ana Martínez    | 2023-04-10  |
-| SUV 2023       | 30000.0 | Carlos López    | 2023-03-25  |
-| Hatchback 2021 | 22000.0 | María Gómez     | 2023-02-20  |
-| Sedán 2022     | 25000.0 | Juan Pérez      | 2023-01-15  |
-+----------------+---------+-----------------+-------------+
+    +----------------+---------+-----------------+-------------+
+    |     modelo     | precio  |     nombre      | fecha_venta |
+    +----------------+---------+-----------------+-------------+
+    | Eléctrico 2021 | 40000.0 | Elena Torres    | 2023-10-05  |
+    | Deportivo 2023 | 35000.0 | Isabel Díaz     | 2023-08-25  |
+    | Híbrido 2022   | 27000.0 | Miguel González | 2023-07-20  |
+    | Compacto 2021  | 20000.0 | Laura Sánchez   | 2023-06-15  |
+    | Camioneta 2023 | 32000.0 | Pedro Rodríguez | 2023-05-05  |
+    | Coupé 2022     | 28000.0 | Ana Martínez    | 2023-04-10  |
+    | SUV 2023       | 30000.0 | Carlos López    | 2023-03-25  |
+    | Hatchback 2021 | 22000.0 | María Gómez     | 2023-02-20  |
+    | Sedán 2022     | 25000.0 | Juan Pérez      | 2023-01-15  |
+    +----------------+---------+-----------------+-------------+
 
     
 </br>
@@ -443,14 +443,14 @@ select modelo, precio from coches where precio > (select avg(c.precio) from vent
 </br>
 
     +----------------+---------+
-|     modelo     | precio  |
-+----------------+---------+
-| SUV 2023       | 30000.0 |
-| Camioneta 2023 | 32000.0 |
-| Deportivo 2023 | 35000.0 |
-| Pickup 2022    | 31000.0 |
-| Eléctrico 2021 | 40000.0 |
-+----------------+---------+
+    |     modelo     | precio  |
+    +----------------+---------+
+    | SUV 2023       | 30000.0 |
+    | Camioneta 2023 | 32000.0 |
+    | Deportivo 2023 | 35000.0 |
+    | Pickup 2022    | 31000.0 |
+    | Eléctrico 2021 | 40000.0 |
+    +----------------+---------+
         
 </br>
 </details>
@@ -471,8 +471,6 @@ select c.marca, COUNT(v.id_venta) as total_ventas from ventas as v join coches a
 
 <details>
 <summary>PULSA PARA VER EL RESULTADO DE LA TABLA</summary>
-
-</details>
 </br>
 
     |+------------+--------------+
