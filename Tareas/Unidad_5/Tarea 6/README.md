@@ -410,7 +410,7 @@ select Id_producto, SUM(cantidad) as total_vendido from Pedidos group by id_prod
 
 - Obtener los clientes que han realizado más de un pedido.
 ```sql
- select Id_producto, SUM(cantidad) as total_vendido from Pedidos group by id_producto;
+select c.id, c.nombre, count(p.id_pedido) as total_pedidos from Clientes as c join Pedidos as p on c.id = p.id_cliente group by c.id, c.nombre having count(p.id_pedido) > 1;
 ```
 
 **Resultado:**
