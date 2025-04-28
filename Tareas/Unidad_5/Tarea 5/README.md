@@ -69,7 +69,7 @@ INSERT INTO libro (titulo, autor_id, editorial, precio) VALUES
 
 Igualmente considero que faltan los autores de varios libros, por lo que los buco y los añado a la tabla autor:
 ```sql
-    INSERT INTO autor (id, nombre) VALUE     
+    INSERT INTO autor (id, nombre) VALUES
         (6, 'F. Scott Fitzgerald')     
         (7, 'Harper Lee')     
         (8, 'J.D. Salinger'),
